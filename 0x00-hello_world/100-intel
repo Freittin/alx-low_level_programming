@@ -1,2 +1,14 @@
-#!/bin/bash
-gcc -s -masm=intel $CFILE
+#include <stdio.h>
+
+/**
+* main ->prints assembly code (Intel syntax) of a C code
+* and save it in an output file
+*
+*Return: Always 0 (Success)
+*/
+
+int main(void)
+{
+	gcc -s -masm=intel $CFILE;
+	return (0);
+}
