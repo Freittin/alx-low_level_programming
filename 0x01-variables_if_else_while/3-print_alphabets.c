@@ -9,16 +9,16 @@
 
 int main(void)
 {
-	int ch;
+	char a;
 
-	for (ch = 97; ch <= 122; ch++)
+	for (a = 'a'; a <= z; a++)
 	{
-		putchar(ch);
+		putchar(a);
 	}
-	for (ch = 65; ch <= 90; ch++)
+	for (a = 'A'; ch <= 'Z'; ch++)
 	{
-		putchar(ch);
+		putchar(a);
 	}
-	putchar(10) : /* asci code for new line*/
+	putchar('\n');
 	return (0);
 }
