@@ -6,7 +6,7 @@
  * @i: possible factor
  * Return: 0 if not prime, 1 if prime
  */
-int helperfunction(int num, int 1)
+int helperfunction(int num, int i)
 {
 	if (i < num)
 	{
