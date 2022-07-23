@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - prints all arguments it receives
+ * main - program that multiplies two numbers
  * @argc: param argc
  * @argv: an array of a command listed
  * Return: 0 for success
@@ -17,7 +17,7 @@ if (argc != 3)
 }
 num1 = atoi argv[1];
 num2 = atoi argv[2];
-result = num1 *num2;
+result = num1 * num2;
 
 printf("%d\n", result);
 return (0);
