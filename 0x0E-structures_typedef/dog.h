@@ -1,5 +1,5 @@
-#ifndef STRTYP
-#define STRTYP
+#ifndef STRUCT_DOG
+#define STRUCT_DOG
 
 /**
  * struct dog - structure of doge
@@ -13,7 +13,7 @@ struct dog
 	float age;
 	char *owner;
 };
-typedef struct dog Dog;
+typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
