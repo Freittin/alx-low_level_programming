@@ -1,5 +1,5 @@
-#ifndef STRUCT_DOG
-#define STRUCT_DOG
+#ifndef STRTYP
+#define STRTYP
 
 /**
  * struct dog - structure of doge
@@ -7,7 +7,6 @@
  * @age: age of dog
  * @owner: my name
  */
-
 struct dog
 {
 	char *name;
