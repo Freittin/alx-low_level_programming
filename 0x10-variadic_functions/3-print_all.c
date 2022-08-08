@@ -9,8 +9,8 @@
  */
 void print_all(const char * const format, ...)
 {
-	unsigned int;
-	va_list args;
+	unsigned int i;
+ 	va_list args;
 	char *s, *separator;
 
 	va_start(args, format);
